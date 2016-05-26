@@ -36,3 +36,9 @@ To test mongodb
 > db.test.insert({hello: "world"});
 > db.test.insert({hello: "world"});
 > db
+
+
+
+Current learning
+
+https://courses.edx.org/courses/course-v1:MongoDBx+M101x+3T2015/courseware/4cf555e7a26d4fbb87503adf07ef03ce/b43fb89d58c54858a1e5606c3669096a/?child=first
