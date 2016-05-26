@@ -1,0 +1,38 @@
+https://courses.edx.org/courses/course-v1:MongoDBx+M101x+3T2015/courseware/4cf555e7a26d4fbb87503adf07ef03ce/e244ef26acf5453bb246041bf86df1d3/?child=first
+
+
+npm install express
+
+C:/mongo
+
+C:/data/db
+
+Run $ mongod (to start mongodb)
+
+Run $ mongo => $ show dbs => $ use contactlist (de switch sang database contactlist)
+
+$ db.contactlist.insert({name: 'Tom', email: 'tom@gmail.com', number: '(444) 444 4444'})
+
+$ db.contactlist.find()
+
+$ db.contactlist.find().pretty()
+
+$ db.contactlist.insert([{name: 'Tracy', email: 'tracy@gmail.com', number: '(555) 555 5555'}, {name: 'Tucker', email: 'tucker@gmail.com', number: '(777) 777 7777'}])
+
+$ db.contactlist.remove({name: "Tucker"})
+
+$ db.contactlist.remove({})
+
+
+npm install mongojs
+
+npm install body-parser
+
+to run the project $node server
+
+
+To test mongodb
+> C:\mongo\bin>mongo
+> db.test.insert({hello: "world"});
+> db.test.insert({hello: "world"});
+> db
