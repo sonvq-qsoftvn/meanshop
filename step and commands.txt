@@ -56,3 +56,17 @@ D:\wamp\www\meanshop>npm run test-kitten
 
 Testing with gulp
 D:\wamp\www\meanshop\node_modules\.bin>gulp test
+
+
+About indexing in mongodb
+> for (var i = 0; i < 50000000; ++i) { db.names.insert({ name: '' + i }); }
+> db.names.insert({ name: 'John' });
+> db.names.find({ name: 'John' });
+> db.names.createIndex({ name: 1 });
+> db.names.find({ name: 'John' });
+
+> for (var i = 0; i < 50000000; ++i) { db.names2.insert({ names: ['' + i] }); }
+> db.names2.insert({ names: ['John'] });
+> db.names2.find({ names: 'John' });
+> db.names2.createIndex({ names: 1 });
+> db.names2.find({ names: 'John' });
